@@ -43,7 +43,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="flex-1">{children}</div>
+            {children}
           </ThemeProvider>
         </body>
       </html>

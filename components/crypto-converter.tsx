@@ -64,7 +64,7 @@ export function CryptoConverter() {
   return (
     <div key="1" className="flex min-h-screen flex-col items-center justify-center bg-gray-100 dark:bg-gray-900">
       <h1 className="mb-4 text-3xl font-bold text-gray-800 dark:text-gray-200">Crypto Converter</h1>
-      <div className="w-full max-w-md">
+      <div className="w-full max-w-md px-4 md:px-0">
         <div className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="from">From</Label>
